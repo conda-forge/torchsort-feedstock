@@ -1,7 +1,11 @@
+azure:
+  free_disk_space: true
+conda_build:
+  error_overlinking: true
+  pkg_format: '2'
 conda_build_tool: rattler-build
 github:
   branch_name: main
   tooling_branch_name: main
-conda_build:
-  error_overlinking: true
 conda_forge_output_validation: true
+test: native_and_emulated
