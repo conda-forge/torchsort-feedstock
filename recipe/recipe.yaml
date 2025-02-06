@@ -82,4 +82,5 @@ about:
 extra:
   recipe-maintainers:
     - mgorny
+    - timkpaine
   feedstock-name: torchsort
