@@ -44,6 +44,7 @@ requirements:
     - if: cuda_compiler_version != "None"
       then:
         - cuda-version ==${{ cuda_compiler_version }}
+    - pytorch
     - pytorch * [build=${{ torch_proc_type }}*]
   run:
     - python
