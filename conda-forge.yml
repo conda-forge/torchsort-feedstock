@@ -9,3 +9,7 @@ github:
   tooling_branch_name: main
 conda_forge_output_validation: true
 test: native_and_emulated
+bot:
+  version_updates:
+    exclude:
+      - '1.9.0'
