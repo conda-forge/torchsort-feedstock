@@ -2,7 +2,7 @@ context:
   # note v1.9.0 tag is the same as v0.1.9, except for CI changes,
   # and it installs as torchsort-0.1.9
   version: 0.1.9
-  build_number: 1
+  build_number: 2
   torch_proc_type: ${{ "cuda" ~ cuda_compiler_version | version_to_buildstring if cuda_compiler_version != "None" else "cpu" }}
 
 package:
